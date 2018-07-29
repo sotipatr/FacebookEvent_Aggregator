@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@import url("list-all.css");
+@import url("menu.css");
+@import url("search_menu.css");
+
+
+html{overflow-y:scroll;}
+body{
+margin:0; 
+padding:0; 
+height:100%;
+width:100%;
+font-size:13px; 
+font-family:Georgia, "Times New Roman", Times, serif; 
+color:#2E3E4D; 
+background:#ECECE8;
+}
+
+
+/* ----------------------------------------------Header-onomasia tou site ------------------------------------- */
+#header{display:block; position:relative; width:30%; margin:0;}
+#header h1{list-style:none; line-height:normal; background: 0 none;color:#000000;font-size:30px;font-family:courier;text-align:center;}
+#header h1 strong{font-weight:normal; color:#000000; background-color:#FFFFFF;font-size: 60px;}
+
+
+/* ----------------------------------------------Title gia thn kathe kathgoria------------------------------------- */
+
+.titlos{
+margin-left:20px;
+margin-top:0px;
+margin-bottom:0px;
+height:30px;
+width:76%;
+padding-top: 0px;
+padding-bottom: 0px;  
+color:#ACACAA;
+font-family:"Roboto";
+font-weight:bold;
+font-size:20px;
+border-bottom:2px solid #ccc;
+
+}
+	
+.titlos:hover{border-bottom:2px solid #2E3E4D;color:#2E3E4D;}
+
+
+div.tetrades{
+	width:100%;
+	height:300px;
+	padding-left:50px;
+	margin-left:30px;
+	margin-top:50px;
+}
+
+div.border{
+	width:100%;
+	height:100%;
+	
+}
+
+
+
+.map{
+
+width:500px;
+height:380px;
+}
